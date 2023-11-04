@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+    gap: 15px;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+}
+
+.grid-cell {
+    width: calc(600px / 16);
+    height: calc(600px / 16);
+}
+
+#input-label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+input {
+    width: 100px;
+}
